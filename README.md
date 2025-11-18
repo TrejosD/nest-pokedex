@@ -23,6 +23,12 @@ yarn add -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Reconstruir la base de Datos. DESARROLLO
+
+```
+https://localhost:3000/api/v2/seed
+```
+
 ## Stack Usado
 
 - Mongo
