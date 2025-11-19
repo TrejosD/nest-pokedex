@@ -23,7 +23,17 @@ yarn add -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. Reconstruir la base de Datos. DESARROLLO
+5. Clonar el archivo **.env.template** y nombrarlo como **.env**
+
+6. Llenar las variables de entorno definidas en el **.env**
+
+7. Levantar el proyecto DEV
+
+```
+yarn start:dev
+```
+
+8. Reconstruir la base de Datos, con la semilla. DEV
 
 ```
 https://localhost:3000/api/v2/seed
